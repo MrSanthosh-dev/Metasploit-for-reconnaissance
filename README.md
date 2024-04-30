@@ -29,7 +29,9 @@ Type help or a question mark "?" to see the list of all available commands you c
 ![image](https://github.com/MrSanthosh-dev/Metasploit-for-reconnaissance/assets/117916573/91e4ed29-717c-47fe-8a3d-f60afcf259cd)
 Port Scanning: Following command is executed for scanning the systems on our local area network with a TCP scan (-sT) looking for open ports between 1 and 1000 (-p1-1000). msf > nmap -sT 192.168.1810/24 -p1-1000 
 ![image](https://github.com/MrSanthosh-dev/Metasploit-for-reconnaissance/assets/117916573/03680da4-4a99-447b-8213-366eb1e76a9d)
+
 the db-nmap command to scan and save the results into Metasploit's postgresql attached database. In that way, you can use those results in the exploitation stage later. scan the targets with the command db_nmap as follows. msf > db_nmap 192.168.181.0/24 
+
 ![image](https://github.com/MrSanthosh-dev/Metasploit-for-reconnaissance/assets/117916573/2d7a1582-12a6-43c3-8c04-3af3022145a3)
 Metasploit has a multitude of scanning modules built in. If we open another terminal, we can navigate to Metasploit's auxiliary modules and list all the scanner modules. cd /usr/share /metasploit-framework/modules/auxiliary kali > ls -l
 ## OUTPUT:
